@@ -80,7 +80,9 @@ We are open to:
 - **Sponsors** and media partners
 - **Contributors** (design, frontend, backend)
 
-📩 Contact: hello@iberiahub.com
+📩 Contact: 
+- Project: hello@iberiahub.com
+- Developer: hugo1297@gmail.com
 
 ---
 
