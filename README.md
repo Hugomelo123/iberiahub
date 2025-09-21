@@ -1,64 +1,73 @@
 # 🌍 IberiaHub — Iberian Esports & Community Platform
 
-![IberiaHub](docs/assets/logo-iberiahub.png)
+<p align="center">
+  <img src="docs/assets/logo-iberiahub.png" alt="IberiaHub Logo" width="200"/>
+</p>
 
-**IberiaHub** is a professional platform connecting the Portuguese and Spanish esports scene.
-We start with **Counter-Strike 2** and expand to **EA FC**, **Free Fire**, and **League of Legends**.
+<p align="center">
+  <a href="https://iberiahub.com"><img alt="Live" src="https://img.shields.io/badge/live-iberiahub.com-brightgreen"></a>
+  <img alt="Status" src="https://img.shields.io/badge/status-online-success">
+  <img alt="License" src="https://img.shields.io/badge/license-All%20Rights%20Reserved-lightgrey">
+  <img alt="Region" src="https://img.shields.io/badge/region-Iberia%20(PT%20%2B%20ES)-blue">
+  <img alt="Stack" src="https://img.shields.io/badge/stack-Next.js%20%7C%20Node.js%20%7C%20PostgreSQL%20%7C%20Redis-000000">
+</p>
 
-🔗 **Live**: https://iberiahub.com
+**IberiaHub** is the first professional platform uniting the **Portuguese and Spanish esports scene**.  
+Starting with **Counter-Strike 2**, expanding to **EA FC**, **Free Fire**, and **League of Legends**.
+
+🔗 **Live project**: <https://iberiahub.com>
 
 ---
 
-## 🚀 Vision
-Unite Iberian players, teams and organizations under one ecosystem with:
-- Title-specific hubs (CS2, EA FC, Mobile)
-- Player ↔ Team **Draft** and visibility
-- **News & Media** for the Iberian scene
-- **Community spaces** and open lobbies
-- **Legal & sponsor** enablement for clubs
+## ✨ Why IberiaHub?
+- 🌐 **Cross-border ecosystem**: Portugal ↔ Spain, one community.  
+- 🧑‍🤝‍🧑 **Players meet Teams**: draft system, visibility, recruitment.  
+- 📰 **Esports Media Hub**: curated news, highlights, and updates.  
+- 🏟️ **Community First**: open lobbies, active players (not just rankings).  
+- 📜 **Professional Framework**: legal & sponsor support for clubs.  
 
-> This repo is a **public overview**. Core application code and infrastructure live in private repos.
+> IberiaHub is more than a platform — it's **the home of Iberian esports**.
 
 ---
 
 ## 🧱 Architecture (high-level)
-- **Frontend**: Next.js + React + TailwindCSS
-- **Backend**: Node.js (modular services; NestJS/Express depending on module)
-- **Database**: PostgreSQL (+ Redis for caching/queues)
-- **Infra**: Docker on Contabo VPS; per‑hub deploys
-- **Security**: Env‑isolated configs; GDPR‑aware data flows
+- **Frontend** → Next.js · React · TailwindCSS  
+- **Backend** → Node.js (NestJS/Express)  
+- **Database** → PostgreSQL + Redis  
+- **Infra** → Dockerized services on Contabo VPS (per-hub deploys)  
+- **Security** → Isolated environments, GDPR-ready by design  
 
 ---
 
-## ✨ Key Modules
-- **CS2Hub** — players, teams, news, and Iberian ecosystem focus
-- **Teams & Players Profiles** — identity, needs, tags, and recruitment
-- **News & Highlights** — curated Iberian esports content
-- **Draft (Roadmap)** — connect free agents and active teams
-- **Community & Lobby (Roadmap)** — show who is active, not just who is ranked
+## 🚀 Current Modules
+- **CS2Hub** → dedicated space for Counter-Strike 2 in Iberia.  
+- **Teams & Players Profiles** → identity, needs, recruitment.  
+- **News & Highlights** → showcase Iberian esports.  
+- **Draft (Roadmap)** → connecting free agents with active teams.  
+- **Community & Lobby (Roadmap)** → highlight who's active in real time.  
 
 ---
 
 ## 🗺️ Roadmap
-- ✅ Public website online
-- 🔄 CS2Hub: final polish on homepage (hero, hover states, animations)
-- 🔜 **Teams** tab with live team profiles and application flows
-- 🔜 Player & Team **Profile pages** (`/perfil/jogador/:id`, `/perfil/equipa/:id`)
-- 🔜 Draft system (post‑launch phase)
-- 🔜 Multi‑language (PT, ES, EN)
-- 🔜 Sponsor & legal partner network
+- ✅ Public website online  
+- 🔄 CS2Hub homepage final polish (hero, hover states, animations)  
+- 🔜 **Teams** tab with live team profiles and applications  
+- 🔜 **Player & Team Profiles** (`/perfil/jogador/:id`, `/perfil/equipa/:id`)  
+- 🔜 Draft system (beta)  
+- 🔜 Multi-language (PT · ES · EN)  
+- 🔜 Sponsor & legal partner integration  
 
 ---
 
-## 📸 Screenshots
-- logo-iberiahub.png: `docs/assets/logo-iberiahub.png`
-- hero-image.png: `docs/assets/hero-image.png`
-- placeholder-16x9.svg: `docs/assets/placeholder-16x9.svg`
-- placeholder-4x3.svg: `docs/assets/placeholder-4x3.svg`
+## 📸 Preview
+<p align="center">
+  <img src="docs/assets/hero-image.png" alt="IberiaHub Hero" width="720"/>
+</p>
 
 ---
 
-## 🧩 Repo Structure (public)
+## 🧩 Repository Structure (public)
+
 ```
 iberiahub-public/
 ├─ frontend/          # placeholder for public-facing assets/modules
@@ -70,22 +79,22 @@ iberiahub-public/
 └─ README.md
 ```
 
-> **Note**: This public repo contains **no private app code**. It acts as a **vitrine** to showcase the project, align partners, and accept interest from contributors/sponsors.
+> ⚠️ This repository is **public-facing only**. Core source code and infra remain in **private repos**.
 
 ---
 
 ## 🤝 Get Involved
-We are open to:
-- Esports **teams** & **leagues** collaborations
-- **Sponsors** and media partners
-- **Contributors** (design, frontend, backend)
+We are open to collaborations with:  
+- 🏆 **Esports teams & leagues**  
+- 💼 **Sponsors & media partners**  
+- 💻 **Contributors** (frontend, backend, design)  
 
-📩 Contact: 
-- Project: hello@iberiahub.com
-- Developer: hugo1297@gmail.com
+📩 Contact us:  
+- 🌍 Project → hello@iberiahub.com  
+- 👤 Developer → hugo1297@gmail.com  
 
 ---
 
 ## ⚖️ License
-**All rights reserved.** This repository is for presentation and community purposes only.
-
+**All rights reserved.**  
+This repository is for presentation and community purposes only.
